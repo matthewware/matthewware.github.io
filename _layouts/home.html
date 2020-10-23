@@ -1,0 +1,66 @@
+---
+layout: default
+---
+<!--
+
+An attemp at making the webpage two columned...
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 100%;
+  padding: 30px;
+}
+</style>
+-->
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+  <div class="row">
+   <div class="column">
+		   <img src="assets/photos/profile_pic_round.png"> 
+   </div>
+   <div class="column">
+		   <p></p>
+		   <p></p>
+		   <p>I am a scientist working on quantum computing and engineered quantum systems.
+		   After graduating from the <a href="https://ua.edu">University of Alabama</a>, I completed my PhD in physics
+	under Prof. Britton Plourde at <a href="https://syr.edu">Syracuse University</a>
+	studying flux-tunnable tansmon qubits.</p>
+		   <p>Currently, I'm working on characterization, verification and design of
+		   quantum systems at <a href="https://www.raytheon.com/capabilities/products/quantum">Raytheon BBN Technologies</a> in Cambridge, MA.</p>
+
+	<div class="row-fluid">
+		<div class="span6">
+			<h2>Professional work</h2>
+			<p>You can see more about my work and publications on <a
+					href="https://scholar.google.com/citations?user=Ag-cs9AAAAAJ&hl=en&oi=ao">Google
+					Scholar</a> or the <a
+											   href="https://arxiv.org/search/quant-ph?searchtype=author&query=Ware%2C+M">arXiv</a>
+			(<a itemprop="sameAs"
+						 content="https://orcid.org/0000-0002-5593-1860"
+						 href="https://orcid.org/0000-0002-5593-1860">ORCID iD</a>).  My <a href="/assets/docs/ware-cv.pdf">CV</a> is also avaliable for those with time to kill.</p>
+		</div>
+	</div>
+
+
+	<h3>Email:</h3>
+	<a href="https://mailhide.io/e/rWHKn" onclick="mailhidepopup=window.open('https://mailhide.io/e/rWHKn','mailhidepopup','width=580,height=635'); return false;">m[...]@[...].edu</a>
+   </div>
+  </div>
+
+  <!--
+    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+	-->
+</div>
