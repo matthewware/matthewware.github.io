@@ -2,7 +2,7 @@
 
 [![Jekyll](https://img.shields.io/badge/jekyll-%3E%3D%203.6-blue.svg)](https://jekyllrb.com/)
 
-Personal website and Blog [matthewware.gihub.io](https://matthewware.gihub.io)
+Personal website and Blog [matthewware.github.io](https://matthewware.github.io)
 
 ## Building
 
