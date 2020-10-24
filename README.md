@@ -2,7 +2,7 @@
 
 [![Jekyll](https://img.shields.io/badge/jekyll-%3E%3D%203.6-blue.svg)](https://jekyllrb.com/)
 
-Personal website and Blog
+Personal website and Blog [matthewware.gihub.io](https://matthewware.gihub.io)
 
 ## Building
 
@@ -36,4 +36,3 @@ $ bundle exec jekyll serve
 ```
 
 This loads the site at `localhost:4000`.
-
