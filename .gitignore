@@ -1,5 +1,6 @@
 .ipynb_checkpoints
 _site
+_drafts
 .sh
 .sass-cache
 .jekyll-cache
