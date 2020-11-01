@@ -18,6 +18,7 @@ group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
   gem "kramdown", ">= 2.3.0"
   gem "jekyll-seo-tag", "~> 2.6"
+  gem 'jemoji'
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
