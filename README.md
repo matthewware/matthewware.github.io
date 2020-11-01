@@ -39,6 +39,6 @@ This loads the site at `localhost:4000`.
 
 #### Extras
 
-For setting up URLs, especially with google, I found [link](https://medium.com/@hossainkhan/using-custom-domain-for-github-pages-86b303d3918a) very helpful.
+For setting up URLs, especially with google, I found this [link](https://medium.com/@hossainkhan/using-custom-domain-for-github-pages-86b303d3918a) very helpful.
 
-For adding tags to post, see [this](https://longqian.me/2017/02/09/github-jekyll-tag/)
+For adding tags to post, see [this](https://longqian.me/2017/02/09/github-jekyll-tag/).
