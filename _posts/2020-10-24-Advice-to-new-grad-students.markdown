@@ -1,11 +1,13 @@
 ---
 layout: post
 title:  "Advice to new grad students"
-categories: physics, life
+tags: physics life
 ---
 
 ![Alive, at work](/assets/photos/Rocky.jpg)
-
+<!--
+<img src="/assets/photos/Rocky.jpg" alt="drawing" class="center" width="600"/>
+-->
 _I was asked back in September 2019 to offer some advice to new grad students starting out in physics at Syracuse. The goal, I was informed, was to offer some encouragement and prospective. This text was ostensibly going to make its way to the physics department's website. Maybe it's all the preach-y-ness but my opus has yet to make it to the department website! Scandal. I offer it below with only the most gentle editing.  NOW GET OFF MY LAWN!_
 
 I always look for the exits when people ask me for life advice.  There's the obvious arrogance of knowing what others should do to find happiness, or whatever. Beyond that, there's what everyone who's 'been through it' should keep in mind -- what worked for them, will by definition, not work for people twenty to thirty years younger (life is after all second-order chaotic--at least).  There's a great [**video of Richard Hamming**](https://www.youtube.com/watch?v=AD4b-52jtos&ab_channel=securitylectures) making this very point on youtube.  In 1995.  So with that concession over, I can only say what I think is important -- what worked for me -- and hope you can understand that it's not blueprint but anecdote. Be yourself. There are no guarantees in life.

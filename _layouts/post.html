@@ -5,6 +5,11 @@ layout: default
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
 {% seo %}
+
+{% if site.tags != "" %}
+  {% include collecttags.html %}
+{% endif %}
+
   <header class="post-header">
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
     <p class="post-meta">
@@ -15,9 +20,18 @@ layout: default
       {%- if page.author -%}
         • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
       {%- endif -%}
+      <span>File under: [
+        {% for tag in page.tags %}
+          {% capture tag_name %}{{ tag }}{% endcapture %}
+          <a href="/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
+        {% endfor %}
+      ]</span>
+      <!--
       {%- if page.categories -%}
         File under: <span itemprop="categories" itemscope itemtype="http://schema.org/CategoryCode"><span class="p-categories" itemprop="name">{{ page.categories }}</span></span>
-      {%- endif -%}</p>
+      {%- endif -%}
+      --->
+    </p>
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
