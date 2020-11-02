@@ -55,6 +55,19 @@ img[src*='#center'] {
     margin: auto;
 }
 
+.vl {
+  border-left: 3px solid $grey-color-light;
+  height: 500px;
+}
+
+.container {
+        width: 60%;
+        margin: 22px auto;
+        padding: 16px;
+        position:absolute;  /* added */
+        max-width: 750px;
+    }
+
 // Import partials.
 @import
   "minima/base",
