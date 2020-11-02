@@ -50,6 +50,11 @@ $on-laptop:        800px !default;
   width: 50%;
 }
 
+img[src*='#center'] {
+    display: block;
+    margin: auto;
+}
+
 // Import partials.
 @import
   "minima/base",
