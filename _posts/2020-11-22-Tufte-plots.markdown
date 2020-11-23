@@ -44,7 +44,7 @@ A copy of the notebook is also posted on [nbviewer](https://nbviewer.jupyter.org
 
 ## Box plots
 
-A slightly easier plot to make is the **mini-box** plot. Basically a striped down version of the standard statistical box plots (see Ch. 6 of VDQI). For this one, The easiest path was to just draw lines to represent the standard deviation of the data. A fudge `s_factor` helps space the lines from the data points when the standard deviation is large. Otherwise, the error is split in two and drawn up and down from the data point.
+A slightly easier plot to make is the **mini-box** plot. Basically a striped down version of the standard statistical box plots (see Ch. 6 of VDQI). For this one, the easiest path was to just draw lines to represent the standard deviation of the data. A fudge `s_factor` helps space the lines from the data points when the standard deviation is large. Otherwise, the error is just split in two and drawn up and down from the data point.
 
 ```python
 plt.plot(x,y, '.', markersize=6, zorder=2)
