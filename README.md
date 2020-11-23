@@ -29,13 +29,13 @@ $ gem install bundler
 $ bundle install
 ```
 
-4. Build site locally
+4. Build/serve the site locally
 
 ```
-$ bundle exec jekyll serve
+$ ./start_local.sh
 ```
 
-This loads the site at `localhost:4000`.
+This loads the site at `localhost:4444`.
 
 #### Extras
 
