@@ -3,7 +3,7 @@ layout: post
 title:  "Tufte plots -- it's all in the eyes"
 tags: python note-to-self
 thumb_nail: "/assets/photos/marginal_hist.png"
-text_exerpt: "Note-to-self: 'Tufte-style' plotting with matplotlib..."
+text_excerpt: "Note-to-self: 'Tufte-style' plotting with matplotlib..."
 ---
 
 <img src="/assets/photos/marginal_hist.png" alt="drawing" class="center" width="800"/>

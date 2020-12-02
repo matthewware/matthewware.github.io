@@ -3,7 +3,7 @@ layout: post
 title:  "Advice to new grad students"
 tags: physics life
 thumb_nail: /assets/photos/Rocky.jpg
-text_exerpt: "I was asked back in September 2019 to offer some advice to new grad students starting out in physics at Syracuse. The goal, I was informed, was to offer some encouragement and prospective"
+text_excerpt: "I was asked back in September 2019 to offer some advice to new grad students starting out in physics at Syracuse. The goal, I was informed, was to offer some encouragement and prospective"
 ---
 
 ![Alive, at work](/assets/photos/Rocky.jpg)
