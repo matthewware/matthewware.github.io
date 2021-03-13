@@ -20,6 +20,12 @@ As part of my plan to spend less time on-line in 2021, I decided to automate my 
   * Controlling the bot from Slack
   * Notes on deploying the bot in the cloud
 
+> UPDATE 03/12/21: There were several issues in practice with this bot intermittently 
+> crashing. After making several changes, I believe the major cause was the handling 
+> of empty byte strings in python urllib3's `response.py`. See more 
+> [here](https://github.com/psf/requests/issues/4248). After making the 
+> `line = (len(line)>0 and line or "0")` change I haven't had any issues.
+
 ## Authentication
 
 In total, we need six tokens for this bot to work. Two are for Slack and four are for Twitter.
