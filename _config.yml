@@ -22,9 +22,9 @@ title: Matthew Ware
 description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://matthewware.dev" # the base hostname & protocol for your site, e.g. http://example.com
-#twitter_username: the_real_mware
 github_username:  matthewware
-instagram_username:  jollywaffleman
+twitter_username: qubits_delight
+instagram_username:  matt_thee_stallion
 
 # Build settings
 theme: minima
